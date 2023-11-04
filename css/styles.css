@@ -13,7 +13,13 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.5;
-letter-spacing: 0.02px;  
+letter-spacing: 0.02em;  
+}
+
+.body{
+font-family: "Roboto", sans-serif;
+color: #434455;
+background-color: var(--body-color);
 }
 
 :root{
@@ -22,6 +28,7 @@ letter-spacing: 0.02px;
 --backgroud-color:#2e2f42;
 --paragraph-color:#434455;
 --white-color:#F4F4FD;
+--body-color:#FFFFFF;
 }
 
 .logo {
@@ -41,8 +48,12 @@ color: var(--text-color);
 }
 
 
-.menu-link:hover, .menu-link:focus{
+.link-menu:hover, .link-menu:focus{
     color:#404BBF;
+}
+
+.address{
+font-style: normal   
 }
 
 .contact-email{
@@ -75,7 +86,9 @@ text-decoration: none;
 color: #404bbf    
 }
 
-
+.section-1{
+    background-color: #2e2f42;
+}
 
 
 
