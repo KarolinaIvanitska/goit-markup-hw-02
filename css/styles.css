@@ -1,5 +1,6 @@
 .list{
-list-style: none
+list-style: none;
+text-decoration: none;
 }
 
 .link{
@@ -127,8 +128,8 @@ font-family: Roboto, sans-serif;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
-line-height: 0.02em; 
-letter-spacing: 0.4px;
+line-height: 1.2; 
+letter-spacing: 0.02em;
 }
 
 .paragraph{
@@ -164,12 +165,17 @@ font-family: Robotom, sens-serif;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
-line-height: 40px;
-letter-spacing: 0.02px;
+line-height: 1.11;
+letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 
-.text-header3{
+.section-4-ul{
+background-color: #FFFFFF;
+}
+
+
+.text-header-3{
 color: var(--text-color);
 text-align: center;
 font-family: Roboto, sans-serif;
@@ -219,4 +225,42 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
+}
+
+.button-portfolio{
+color: var(--firstword-text-color);
+background-color: var(--white-color);
+text-align: center;
+font-family: Roboto, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em; 
+cursor: pointer;  
+}
+
+.button-portfolio:hover, .button-portfolio:focus{
+color: #FFFFFF;
+background-color: #404BBF;    
+}
+
+.h2-portfolio{
+color: var(--text-color);
+font-family: Roboto, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.2; 
+letter-spacing: 0.02em;   
+}
+
+.paragraph-portfolio{
+color: var(--paragraph-color);
+font-family: Roboto, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.02em;   
 }
