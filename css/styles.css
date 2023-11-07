@@ -243,7 +243,7 @@ color: #FFFFFF;
 background-color: #404BBF;    
 }
 
-.list >li{
+.sub-list >li{
     list-style: none;
     text-decoration: none;   
 }
