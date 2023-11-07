@@ -243,12 +243,12 @@ color: #FFFFFF;
 background-color: #404BBF;    
 }
 
-.sub-list >li{
-    list-style: none;
-    text-decoration: none;   
+.sub-list > li{
+list-style: none;
+text-decoration: none;   
 }
 
-.h2-portfolio >li{
+.h2-portfolio > li{
     color: var(--text-color);
     font-family: Roboto, sans-serif;
     font-size: 20px;
@@ -258,7 +258,7 @@ background-color: #404BBF;
     letter-spacing: 0.02em;  
 }
 
-.paragraph-portfolio >li{
+.paragraph-portfolio > li{
 color: var(--paragraph-color);
 font-family: Roboto, sans-serif;
 font-size: 16px;
