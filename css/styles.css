@@ -248,7 +248,7 @@ list-style: none;
 text-decoration: none;   
 }
 
-.link > .h2-portfolio {
+.link > .h2-portfolio{
     color: var(--text-color);
     font-family: Roboto, sans-serif;
     font-size: 20px;
