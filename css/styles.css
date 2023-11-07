@@ -262,3 +262,28 @@ font-weight: 400;
 line-height: 1.5; 
 letter-spacing: 0.02em;   
 }
+
+.list >li{
+    list-style: none;
+    text-decoration: none;   
+}
+
+.h2-portfolio >li{
+    color: var(--text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2; 
+    letter-spacing: 0.02em;  
+}
+
+.paragraph-portfolio >li{
+color: var(--paragraph-color);
+font-family: Roboto, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.02em; 
+}
