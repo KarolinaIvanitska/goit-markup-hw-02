@@ -252,4 +252,6 @@ line-height: 1.5;
 letter-spacing: 0.02em; 
 }
 
-
+.link > .picture-portfolio{
+    background-color: #FFFFFF;
+}
