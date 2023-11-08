@@ -232,7 +232,7 @@ list-style: none;
 text-decoration: none;   
 }
 
-.link > .h2-portfolio{
+.link > .h-two-portfolio{
     color: var(--text-color);
     font-family: Roboto, sans-serif;
     font-size: 20px;
@@ -250,4 +250,8 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.5; 
 letter-spacing: 0.02em; 
+}
+
+.link > .picture-portfoio{
+  background-color: var(--body-color);  
 }
